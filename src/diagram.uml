@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="319.0">exeptions.NoFoundExeption</node>
+    <node x="94.0" y="248.0">objects.Here</node>
+    <node x="990.0" y="172.0">objects.Mustache</node>
+    <node x="88.25" y="0.0">interfaces.IThing</node>
+    <node x="533.0" y="172.0">objects.Everything</node>
+    <node x="188.0" y="248.0">objects.Floor</node>
+    <node x="860.0" y="172.0">objects.SugarBowl</node>
+    <node x="90.0" y="172.0">objects.Place</node>
+    <node x="551.0" y="76.0">objects.Thing</node>
+    <node x="751.0" y="172.0">objects.Shadow</node>
+    <node x="198.0" y="319.0">exeptions.NoNameExeption</node>
+    <node x="508.0" y="319.0">Act</node>
+    <node x="66.0" y="76.0">interfaces.IPlace</node>
+    <node x="671.0" y="172.0">objects.He</node>
+    <node x="0.0" y="248.0">objects.Wall</node>
+    <node x="192.0" y="172.0">objects.Family</node>
+    <node x="571.5" y="0.0">objects.Aught</node>
+    <node x="301.0" y="172.0">objects.Something</node>
+    <node x="431.0" y="172.0">objects.Light</node>
+    <node x="389.0" y="319.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="objects.Everything" target="objects.Thing">
+      <point x="0.0" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="objects.Place" target="objects.Thing">
+      <point x="20.5" y="-13.0" />
+      <point x="151.5" y="122.0" />
+      <point x="555.5555555555555" y="122.0" />
+      <point x="-36.44444444444446" y="13.0" />
+    </edge>
+    <edge source="objects.Family" target="objects.Thing">
+      <point x="0.0" y="-13.0" />
+      <point x="236.5" y="132.0" />
+      <point x="564.6666666666666" y="132.0" />
+      <point x="-27.33333333333337" y="13.0" />
+    </edge>
+    <edge source="objects.Wall" target="objects.Place">
+      <point x="0.0" y="-13.0" />
+      <point x="37.0" y="223.0" />
+      <point x="103.66666666666669" y="223.0" />
+      <point x="-27.33333333333333" y="13.0" />
+    </edge>
+    <edge source="objects.He" target="objects.Thing">
+      <point x="0.0" y="-13.0" />
+      <point x="701.0" y="152.0" />
+      <point x="601.1111111111111" y="152.0" />
+      <point x="9.111111111111086" y="13.0" />
+    </edge>
+    <edge source="objects.Here" target="objects.Place">
+      <point x="0.0" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="interfaces.IPlace" target="interfaces.IThing">
+      <point x="0.0" y="-13.0" />
+      <point x="-22.25" y="13.0" />
+    </edge>
+    <edge source="objects.Thing" target="objects.Aught">
+      <point x="20.5" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="objects.Thing" target="interfaces.IThing">
+      <point x="-20.5" y="-13.0" />
+      <point x="571.5" y="51.0" />
+      <point x="155.0" y="51.0" />
+      <point x="22.25" y="13.0" />
+    </edge>
+    <edge source="objects.Place" target="interfaces.IPlace">
+      <point x="-20.5" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="objects.Shadow" target="objects.Thing">
+      <point x="0.0" y="-13.0" />
+      <point x="795.5" y="142.0" />
+      <point x="610.2222222222222" y="142.0" />
+      <point x="18.22222222222217" y="13.0" />
+    </edge>
+    <edge source="objects.Light" target="objects.Thing">
+      <point x="0.0" y="-13.0" />
+      <point x="472.0" y="152.0" />
+      <point x="582.8888888888889" y="152.0" />
+      <point x="-9.111111111111086" y="13.0" />
+    </edge>
+    <edge source="objects.Something" target="objects.Thing">
+      <point x="0.0" y="-13.0" />
+      <point x="356.0" y="142.0" />
+      <point x="573.7777777777778" y="142.0" />
+      <point x="-18.22222222222217" y="13.0" />
+    </edge>
+    <edge source="objects.SugarBowl" target="objects.Thing">
+      <point x="0.0" y="-13.0" />
+      <point x="915.0" y="132.0" />
+      <point x="619.3333333333334" y="132.0" />
+      <point x="27.33333333333337" y="13.0" />
+    </edge>
+    <edge source="objects.Floor" target="objects.Place">
+      <point x="0.0" y="-13.0" />
+      <point x="229.0" y="223.0" />
+      <point x="158.33333333333331" y="223.0" />
+      <point x="27.333333333333314" y="13.0" />
+    </edge>
+    <edge source="objects.Mustache" target="objects.Thing">
+      <point x="0.0" y="-13.0" />
+      <point x="1041.5" y="122.0" />
+      <point x="628.4444444444445" y="122.0" />
+      <point x="36.44444444444446" y="13.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="608.8333333333335" y="252.25" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
